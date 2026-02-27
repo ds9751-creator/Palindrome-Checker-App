@@ -5,12 +5,8 @@ public class PalindromeCheckerApp {
         for (int i = original.length() - 1; i >= 0; i--) {
             reversed = reversed + original.charAt(i);
         }
-
-        // 3. Print both to see what happened
         System.out.println("Original: " + original);
         System.out.println("Reversed: " + reversed);
-
-        // 4. Compare them
         if (original.equals(reversed)) {
             System.out.println("Result: It is a palindrome!");
         } else {
